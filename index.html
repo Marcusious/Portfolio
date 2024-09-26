@@ -305,20 +305,16 @@
 
     </section>
 
-    <section class="contact-form" id="contact">
-        <h2 class="contact-me">Contact <span>Me</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input id="name" type="name" placeholder="Full Name">
-                <input id="email" type="email" placeholder="Email">
-                <input id="subject" type="text" placeholder="Subject">
-            </div>
-
-            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input onclick="sendMail()" type="submit" value="Send Message" class="btn-1">
+    <div id="contact" class="container">
+        <h1 class="contact-me">Contact <span>Me</span></h1>
+        <form action="https://formspree.io/f/myzgryja" method="post">
+            <input class="NAME" name="Name" type="name" placeholder="Full Name" required> <br>
+            <input class="EMAIL" name="Email" type="email" placeholder="Email" required> <br>
+            <input class="SUBJECT" name="Subject" type="text" placeholder="Subject" required> <br>
+            <textarea class="MESSAGE" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea> <br>
+            <button type="submit" class="btn-1">Send</button>
         </form>
-    </section>
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
@@ -330,14 +326,5 @@
         })
     </script>
     <script src="index.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@email.min.js"></script>
-    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script type="text/javascript">
-    (function(){
-        emailjs.init({
-            publicKey: "InOIgnx8VhVq_Z3Ec",
-        });
-    })();
-    </script>
 </body>
 </html>
