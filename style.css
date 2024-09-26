@@ -270,18 +270,21 @@ header .logo{
     justify-content: center;
     text-align: center;
 }
+/* FORM */
+
 .container .NAME,.container .SUBJECT,.container .EMAIL{
-    padding: 20px 256px 20px 10px;
+    padding: 20px 124px 20px 10px;
     text-align: left;
     border-radius: 5px;
     margin: 10px;
     border: 1px solid grey;
 }
 .container .MESSAGE{
-    padding: 20px 200px 20px 10px;
+    padding: 20px 66px 20px 10px;
     text-align: left;
     border-radius: 5px;
     margin: 10px;
+    height: 120px;
 }
 .btn-1{
     margin: 0;
