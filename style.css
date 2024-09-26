@@ -651,4 +651,19 @@ header .logo{
 .logo-branding .mob-web-row{
     display: block;
 }
+/* FORM */
+
+.container .NAME,.container .SUBJECT,.container .EMAIL{
+    padding: 20px 124px 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+}
+.container .MESSAGE{
+    padding: 20px 66px 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    margin: 10px;
+}
 }
