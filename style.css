@@ -272,15 +272,26 @@ header .logo{
 }
 /* FORM */
 
+#contact h1{
+    margin-top: 40px;
+}
 .container .NAME,.container .SUBJECT,.container .EMAIL{
-    padding: 20px 124px 20px 10px;
+    /* padding: 20px 124px 20px 10px; */
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: left;
     border-radius: 5px;
     margin: 10px;
     border: 1px solid grey;
 }
 .container .MESSAGE{
-    padding: 20px 68px 20px 10px;
+    /* padding: 20px 124px 20px 10px; */
+    width: 300px;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
     text-align: left;
     border-radius: 5px;
     margin: 10px;
